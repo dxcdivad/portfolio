@@ -25,7 +25,6 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-
 app.post('/thanks', (req, res) => {
     const msg = {
         to: 'dxcdivad@gmail.com',
@@ -42,3 +41,5 @@ app.post('/thanks', (req, res) => {
 app.listen(process.env.PORT || 8080, () => {
     console.log('listening at https://localhost:8080')
 });
+
+module.exports = app;
