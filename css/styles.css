@@ -99,7 +99,7 @@ ul a:hover::before {
 
 
 .first {
-  background-image: url("DSCF2021.jpg");
+  background-image: url("assets/DSCF2021.jpg");
   background-size: cover;
   width: 100%;
   height: 105%;
