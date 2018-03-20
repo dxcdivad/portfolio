@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+	background: #fafafaff;
+	font-family: 'Work Sans';
+	font-weight: 400;
+}
+
+form {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+
+
+.container-float {
+  width: 100%;
+  margin: 0 auto;
+  background: #fafafaff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#homeLink {
+  display: inline-block;
+  padding-top: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 14px;
+  float: left;
+  margin: 1px 20px 0px 50px;
+  color: inherit;
+}
+
+
+
+nav {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: #fafafaff;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  z-index: 1;
+}
+
+nav ul {
+  margin: 5px 0px 5px 0px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom:20px;
+  padding: 20px 0px 0px 0px;
+}
+
+nav a {
+  color: #444;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight:400;
+  padding: 25px 10px 25px 10px;
+  margin:-25px -10px -25px -10px;
+}
+
+
+ul a:hover {
+  color: #000;
+  text-decoration:none;
+}
+
+ul a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  text-decoration:none;
+  transition: all ease-in-out 250ms;
+}
+
+ul a:hover::before {
+  width: 100%;
+  text-decoration:none;
+
+}
+
+
+.first {
+  background-image: url("DSCF2021.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 105%;
+}
+
+.second {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+
+.third {
+  width: 100%;
+  height: 800px;
+  background: #fafafaff;
+}
+
+.fourth {
+  position: relative;
+  background: #fafafaff;
+  width: 100%;
+  height: 800px;
+  padding: 160px 450px 300px 450px;
+}
+
+.description {
+  position: relative;
+  top:25%;
+  font-weight: 400;
+  font-size: 20px; 
+}
+
+.text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.third img {
+  width:100%;
+}
+
+.top {
+  padding: 85px 0px 0px 0px;
+}
+
+.bottom {
+  padding: 20px 0px 0px 0px;
+}
+
+.skills {
+  width: 100%;
+  height: 400px;
+}
+
+.skills img {
+  width:100%;
+}
+
+#mongo{
+  padding-top:50px;
+}
+
+#react{
+  padding-top:40px;
+}
+
+#node{
+  padding-top:30px;
+}
+
+.thankyoutext {
+  position:absolute;
+  text-align: center;
+  bottom:0;
+  left: 40%;
+  padding-bottom: 10px;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
