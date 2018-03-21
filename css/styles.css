@@ -27,7 +27,6 @@ header::after {
 }
 
 #homeLink {
-  display: inline-block;
   padding-top: 22px;
   text-decoration: none;
   text-transform: uppercase;
