@@ -98,7 +98,7 @@ ul a:hover::before {
 
 
 .first {
-  background-image: url("assets/DSCF2021.jpg");
+  background-image: url("https://s3-us-west-1.amazonaws.com/dh-portfolio-1/rsz_dscf2021.jpg");
   background-size: cover;
   width: 100%;
   height: 105%;
@@ -146,7 +146,7 @@ ul a:hover::before {
 }
 
 .bottom {
-  padding: 20px 0px 0px 0px;
+  padding: 40px 0px 0px 0px;
 }
 
 .skills {
@@ -156,6 +156,11 @@ ul a:hover::before {
 
 .skills img {
   width:100%;
+}
+
+#css img {
+  max-width: 70%;
+  margin-left: 25px;
 }
 
 #mongo{
@@ -168,6 +173,17 @@ ul a:hover::before {
 
 #node{
   padding-top:30px;
+}
+
+#node img {
+  max-width: 90%;
+  margin-left:10px;
+}
+
+#js img {
+  max-width: 80%;
+  padding-top: 20px;
+  margin-left: 13px;
 }
 
 .thankyoutext {
